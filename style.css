@@ -1,3 +1,33 @@
-body{
-    background: orange;
+.header {
+    background-image: url('images/bg.gif');
+    background-color: #fff;
+    background-size: ;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    position: relative;
 }
+.navbar {
+    background:#fff;
+}
+.nav-link,
+.navbar-brand {
+    color: #000;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.nav-link {
+    margin-right: 1em !important;
+    margin-top: 0.3em
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 55%;
+	transform: translate(-50%, -55%);
+	text-align: center;
