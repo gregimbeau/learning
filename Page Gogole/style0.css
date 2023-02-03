@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px solid red;
+  background-color: transparent;
+}
+
+.top ul {
+  font-size: 0.8rem;
+  grid-template-columns: 87% 4% 4% 3% 3%;
+  padding: 1px;
+  margin-top: 0;
+  margin: 10px;
+  min-height: 10px;
+  align-items: right;
+  display: flex;
+  justify-content: right;
+  max-width: 100%;
+}
+.top li {
+  list-style: none;
+  align-items: center;
+  width: 45px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+}
+.top img {
+  margin: 1px;
+  position: right;
+  margin-top: 0.5vh;
+}
+body {
+  background: url(images/bg.gif) no-repeat center;
+  background-position: 50% 35%;
+}
+.grid {
+  min-height: 20px;
+  max-height: 27px;
+  width: 40%;
+  background: none;
+  /* Centrer une boite */
+  margin: 20% auto;
+  border: 1px solid rgb(149, 157, 163);
+  border-radius: 33px 33px 33px 33px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 7% 80% 7% 7%;
+  grid-template-rows: 24px;
+  align-items: absolute;
+  margin-top: 26%;
+}
+.grid img {
+  margin: 0px;
+  position: right;
+  margin-top: 2px;
+}
+#search {
+  display: grid;
+  position: right;
+  margin-top: 5px;
+  height: 19px;
+  font-size: medium;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.grid input {
+  width: 100%;
+  margin: 20px auto;
+}
+.but {
+  background: none;
+  /* Centrer une boite */
+
+  margin: 2vh 2vh 2vh 8vh;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#r1 {
+  cursor: pointer;
+  background: #e3e4e671;
+  transition: 0.2s;
+  margin: 5px 10px 10px -10px;
+  padding: 12px;
+}
+#r1:hover {
+  background: #e3e4e6d8;
+  color: black;
+}
+#r2 {
+  cursor: pointer;
+  background: #e3e4e671;
+  transition: 0.2s;
+  margin: 5px 10px 10px 10px;
+  padding: 12px;
+}
+#r2:hover {
+  background: #e3e4e6d8;
+  color: black;
+}
+/* RESPONSIVE  */
+@media screen and (max-width: 1000px) {
+  .but {
+    display: flex;
+    margin: 5px 15px 10px -10px;
+    padding: 12px;
+  }
+  .grid-container img {
+    width: 40%;
+  }
+}
+
+#footer {
+  height: 100px;
+}
+footer {
+  background-color: #e3e4e671;
+  height: 15%;
+  width: 100%;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+}
+.pays {
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+  color: #696a6b;
+  margin-bottom: ;
+}
+
+.divers ul {
+  color: #696a6b;
+  padding: 1px;
+  margin-top: 0;
+  margin: 10px;
+  min-height: 10px;
+  display: flex;
+  max-width: 100%;
+}
+.divers li {
+  list-style: none;
+  margin: 15px;
+}
